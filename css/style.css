@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Cuprum&display=swap');
+@font-face {
+    font-family: 'Cuprum', sans-serif;;
+    src: url('../fonts/Cuprum-VariableFont_wght.ttf');
+}
+
+body { 
+    background-color: rgb(255, 255, 255);
+}
+h1 {
+    color: #ffffff;
+    background: #0691cd;
+    font-family: 'Cuprum', sans-serif;;
+    text-align: center;
+    text-shadow: 0 1px 2px rgba(222, 16, 16, 0.29);
+}
+.block img{
+    box-sizing: border-box;
+    width: 100%;
+    border-radius: 10px;
+}
+.block {
+    display: inline-block;
+    box-sizing: border-box;
+    box-shadow: 0 3px 7px #0691cd83;
+    border: 5px solid #0691cd;
+    border-radius: 15px;
+    padding: 10px;
+    margin: 10px;
+    width: 400px;
+    height: 365px;
+    font-family: 'Cuprum', sans-serif;;
+    text-align: center;
+    background-color: white;
+}
+span {
+    opacity: 0;
+    display: inline-block;
+    position: absolute;
+    box-sizing: border-box;
+    box-shadow: 0 3px 7px #0691cd83(0, 99, 99, 0.5);
+    border-radius: 15px;
+    padding: 10px;
+    margin: 10px;
+    width: 400px;
+    height: 365px;
+    font-family: 'Cuprum', sans-serif;;
+    text-align: left;
+    background-color: white;
+}
+span:hover {
+    opacity: 100;
+    transition: 0.3s;
+}
